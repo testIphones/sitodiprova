@@ -1,38 +1,129 @@
 body {
-	font-family: verdana;
+	font-family: 'Times New Roman', Times, serif;
 	margin: 0;
+	background-color: black;
+	color: white;
 }
 
 header {
-	background-color: #333;
-	color: #fff;
-	padding: 10px 20px;
-   	display: flex;
-    	justify-content: center;
-	align-items: center;
+	font-size: larger;
+	background-color: #313031;
+	color: white;
+	padding: 30px 20px;
+	display: flex;
+	justify-content: center;
 }
 
-div {
-	padding: 269px 20px;
-	font-size: 34px;
-   	display: flex;
-	flex-direction: column;
-    	justify-content: center;
-	align-items: center;
-}
+
+
+
 
 .my-button{
-	background-color: #3498db;
-    	color: white;
-    	border: none;
-    	padding: 10px 20px;
-    	text-align: center;
+	width: 210px;
+	height: 70px;
+	background-color: #313031;
+    color: white;
+    border: none;
+	padding:10px 20px;
+	text-align: center;
    	text-decoration: none;
-    	display: inline-block;
-    	font-size: 16px;
-    	margin: 4px 2px;
-    	cursor: pointer;
-    	border-radius: 5px;
-    	transition: background-color 0.3s ease;
+    display: inline-block;
+    font-size: 23px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+	
 
+}
+
+.informazioni {
+	font-size: 16px;
+	position: absolute;
+	top: 50px;
+	right: 100px;
+	width: 60px;
+	height: 60px;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	background-color: #313031;
+	border: #313031;
+	cursor:pointer;
+}
+
+button.informazioni:hover{
+	font-size: large;
+}
+
+button.my-button:hover{
+	color:green;
+}
+
+.acquisti {
+	position: absolute;
+	right: 240px;
+	top: 500px;
+	z-index: 2;
+}
+
+img{
+	display: block;
+	max-width: 900px;
+	height: auto;
+}
+
+.immagine1{
+	position:absolute;
+	top:244px;
+	left:0px;
+	z-index: 1;
+	
+}
+.immagine2{
+	max-width: 100%;
+	position: absolute;
+	top: 121%;
+	left: 20%;
+	transform: translate(-50% -50%);
+}
+
+.testo {
+	font-size: 56px;
+	color: white;
+	position: absolute;
+	right: 328px;
+	top: 300px;
+}
+
+.posizione {
+	padding: 40px 0px;
+	margin-top: 595px;
+	text-align:center;
+	font-size: 21;
+	background-color: #313031;
+
+}
+
+#tasto{
+	position: absolute;
+	right: 215px;
+}
+
+
+.primo{
+	position:absolute;
+	top:600px;
+	right: 550px;
+	color: white;
+	font-size: 21;
+}
+
+
+.secondo{
+	position:absolute;
+	top:600px;
+	right: 330px;
+	color: white;
+	font-size: 21;
 }

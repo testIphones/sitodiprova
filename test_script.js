@@ -21,3 +21,10 @@ document.getElementById("numero").textContent = numero;
 var lista = [""];
 lista.push("numero");
 
+function redirectToPage1(){
+  window.location.href = "test_index1.html";
+}
+function redirectToPage2(){
+  window.location.href = "test_index2.html";
+}
+

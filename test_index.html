@@ -1,29 +1,46 @@
 <html>
 
 <head>
+	<meta charset="UTF-8">
 	<title>Shop Online</title>
 	<link rel="stylesheet" href="test_styles.css">
 </head>
 <body>
-
+	
 	<header>
-		<h1>TEST</h1>
+		<h1>WINNOW</h1>
+		<div>
+			<button onclick="attenzione()" class="informazioni">supporto</button>
+			<button id="tasto" onclick="attenzione()" class="informazioni">contatti</button>
+		</div>
 	</header>
-	<div>
-		<h2>test</h2>
-		<div2>
-		<button onclick="redirectToPage1()" id="bottone" class="my-button">Biglietto</button>
-		<button onclick="redirectToPage2()" id="bottone" class="my-button">Biglietto</button>
-		</div2>
+
+
+	<h2 class="testo">CHOOSE</h2>
+
+	<div class="acquisti">
+		<button onclick="redirectToPage1()" class="my-button">1 TICKET</button>
+		<button onclick="redirectToPage2()" class="my-button">5 TICKETS</button>
 	</div>
 
-<script>
-	function redirectToPage1(){
-		window.location.href = "test_index1.html";
-	}
-	function redirectToPage2(){
-		window.location.href = "test_index2.html";
-	}
-</script>
+	<div class="immagine1">
+		<img src="https://www.apple.com/newsroom/images/2023/09/apple-unveils-iphone-15-pro-and-iphone-15-pro-max/article/Apple-iPhone-15-Pro-lineup-hero-230912_Full-Bleed-Image.jpg.xlarge.jpg">
+	</div>
+	<div class="immagine2">
+			<img src="https://www.apple.com/newsroom/images/2023/09/apple-unveils-iphone-15-pro-and-iphone-15-pro-max/article/Apple-iPhone-15-Pro-lineup-camera-system-230912_big.jpg.large.jpg">
+	</div>
+
+	<div class="posizione">
+		Non perdere l'occasione di vincere un iPhone!<br>Ottieni subito il tuo ticket per partecipare!
+	</div>
+
+	<div class="primo">
+		1€
+	</div>
+	<div class="secondo">
+		4€
+	</div>
+
+<script src="test_script.js"></script>
 </body>
 </html>
