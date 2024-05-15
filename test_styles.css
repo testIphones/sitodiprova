@@ -9,18 +9,19 @@ header {
 	font-size: larger;
 	background-color: #313031;
 	color: white;
-	padding: 30px 20px;
-	display: flex;
-	justify-content: center;
+	padding:2% 30%;
+}
+
+.titolo{
+	text-align: center;
 }
 
 
 
 
-
 .my-button{
-	width: 210px;
-	height: 70px;
+	width: 12%;
+	height: 11%;
 	background-color: #313031;
     color: white;
     border: none;
@@ -28,8 +29,9 @@ header {
 	text-align: center;
    	text-decoration: none;
     display: inline-block;
-    font-size: 23px;
-    margin: 4px 2px;
+	position: relative;
+    font-size: 120%;
+	margin: 2% 1%;
     cursor: pointer;
     border-radius: 5px;
     transition: background-color 0.3s ease;
@@ -37,11 +39,18 @@ header {
 
 }
 
+.acquisti {
+	text-align: center;
+	position:relative;
+	top:50%;
+	z-index: 2;
+}
+
 .informazioni {
-	font-size: 16px;
+	font-size: 100%;
 	position: absolute;
 	top: 50px;
-	right: 100px;
+	right: 7%;
 	width: 60px;
 	height: 60px;
 	justify-content: center;
@@ -60,70 +69,58 @@ button.my-button:hover{
 	color:green;
 }
 
-.acquisti {
-	position: absolute;
-	right: 240px;
-	top: 500px;
-	z-index: 2;
-}
 
 img{
-	display: block;
-	max-width: 900px;
+	max-width: 60%;
 	height: auto;
+	
 }
 
 .immagine1{
 	position:absolute;
-	top:244px;
-	left:0px;
+	top:23%;
+	text-align: center;
 	z-index: 1;
 	
 }
 .immagine2{
-	max-width: 100%;
 	position: absolute;
-	top: 121%;
-	left: 20%;
-	transform: translate(-50% -50%);
+	top: 125%;
+	text-align: center;
+
 }
 
-.testo {
-	font-size: 56px;
-	color: white;
-	position: absolute;
-	right: 328px;
-	top: 300px;
-}
 
 .posizione {
-	padding: 40px 0px;
-	margin-top: 595px;
+	padding: 3% 0%;
+	margin-top: 25.2%;
 	text-align:center;
-	font-size: 21;
+	font-size: 150%;
 	background-color: #313031;
 
 }
 
 #tasto{
 	position: absolute;
-	right: 215px;
+	right: 14%;
 }
 
 
 .primo{
 	position:absolute;
-	top:600px;
-	right: 550px;
+	top:88%;
+	right: 56.5%;
 	color: white;
-	font-size: 21;
+	font-size: 120%;
+	z-index: 3;
 }
 
 
 .secondo{
 	position:absolute;
-	top:600px;
-	right: 330px;
+	top:88%;
+	right: 42%;
 	color: white;
-	font-size: 21;
+	font-size: 120%;
+	z-index: 3;
 }
