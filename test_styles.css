@@ -6,31 +6,14 @@ body {
 }
 
 header {
-	position: relative;
 	font-size: larger;
 	background-color: #313031;
 	color: white;
 	padding:2% 30%;
-	z-index: 3;
 }
 
 .titolo{
 	text-align: center;
-}
-
-.informazioni {
-	font-size: 100%;
-	position: absolute;
-	top: 44%;
-	right: 7%;
-	width: 9%;
-	height: 5%;
-	justify-content: center;
-	align-items: center;
-	color: white;
-	background-color: #313031;
-	border: #313031;
-	cursor:pointer;
 }
 
 
@@ -59,10 +42,24 @@ header {
 .acquisti {
 	text-align: center;
 	position:relative;
-	top:45%;
+	top:50%;
 	z-index: 2;
 }
 
+.informazioni {
+	font-size: 100%;
+	position: absolute;
+	top: 8%;
+	right: 7%;
+	width: 9%;
+	height: 5%;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	background-color: #313031;
+	border: #313031;
+	cursor:pointer;
+}
 
 button.informazioni:hover{
 	font-size: large;
@@ -81,16 +78,22 @@ img{
 
 .immagine1{
 	position:absolute;
-	top:18%;
+	top:23%;
 	text-align: center;
 	z-index: 1;
 	
 }
+.immagine2{
+	position: absolute;
+	top: 125%;
+	text-align: center;
+
+}
 
 
 .posizione {
-	padding: 1.0% 0%;
-	margin-top: 22.8%;
+	padding: 3% 0%;
+	margin-top: 25.2%;
 	text-align:center;
 	font-size: 150%;
 	background-color: #313031;
@@ -105,7 +108,7 @@ img{
 
 .primo{
 	position:absolute;
-	top:83.5%;
+	top:88%;
 	right: 56.5%;
 	color: white;
 	font-size: 120%;
@@ -115,7 +118,7 @@ img{
 
 .secondo{
 	position:absolute;
-	top:83.5%;
+	top:88%;
 	right: 42%;
 	color: white;
 	font-size: 120%;
